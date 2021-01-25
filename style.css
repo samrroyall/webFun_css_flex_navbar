@@ -1,0 +1,46 @@
+.center-box {
+    background-color: navy;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-item {
+    background-color: beige;
+    height: 100px;
+    width: 100px;
+}
+
+navbar {
+    background-color: lightblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+navbar img {
+    height: 60px;
+    width: auto;
+}
+
+navbar h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+navbar li {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+navbar a {
+    color: white;
+    text-decoration: none;
+}
